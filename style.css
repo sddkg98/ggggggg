@@ -1,0 +1,448 @@
+body{
+    margin: 0;
+    width: 100%;
+    
+    
+}
+header{
+    background: url(https://pokemon-go.name/wp-content/uploads/2020/04/mart-2020-v-pokemon-go-1024x575.jpg) center/cover no-repeat;
+    width: 100%;
+   padding-bottom: 400px;
+    
+}
+.navbar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+}
+.img{
+    background: url(https://i.gifer.com/origin/e6/e6b94c0150fb20f8f3fed365bc670780_w200.gif) center/cover no-repeat;
+    width: 80px;
+    height: 80px;
+    margin-left: 100px;
+    margin-right: 5px;
+
+}
+
+
+.navbar ul{
+    display: flex;
+}
+.navbar ul li{
+   
+    list-style-type: none;
+
+}
+.navbar ul li a{
+    font-family: Bradley Hand, cursive;
+    font-size: 60px;
+    color:#ebe41e;
+    text-decoration: none;
+}
+input{
+   
+    width: 500px;
+    height: 50px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-left: 20px;
+    outline: none;
+    border-radius: 7px;
+    font-size: 25px;
+    color: black;
+
+}
+
+
+.card-video{
+    width: 80%;
+    background-color: rgba(0, 0, 0, 0.7);
+    /* border: 1px solid white; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    padding: 15px;
+    margin-left: 100px;
+    margin-top: 5%;
+    
+    
+}
+
+.video video{
+    width: 800px;
+    
+}
+.text{
+    width: 450px;
+    margin-left: 50px;
+}
+.text1{
+    width: 450px;
+    margin-right: 50px;
+}
+span{
+    color: white;
+    font-size: 35px;
+    font-family: 'Goblin One', cursive;
+    
+}
+.span{
+    width: 80%;
+    background-color: rgba(0, 0, 0, 0.7);
+    /* border: 1px solid white; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px 20px;
+    margin-left: 100px;
+    margin-top: 5%;
+
+}
+
+.end{
+    text-align: center;
+}
+.end h5{
+    font-family: Bradley Hand, cursive;
+    font-size: 30px;
+    color: black;
+    text-decoration: none;
+}
+
+
+ /* main */
+ main{
+    background: url(https://i.pinimg.com/originals/7f/3e/18/7f3e186790208b63dadda09d6b91d334.jpg) center
+    /cover no-repeat;
+    width: 100px;
+     width: 100%;
+     margin: 0%;
+     
+     padding-top: 10px;
+     
+ }
+.end-2{
+    margin-left: 50px;
+}
+.end-2 h3{
+    font-size: 25px;
+    color: black;
+}
+
+.cardsContainer{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+}
+.container{
+    width: 250px;
+    height: 250px;
+    
+    margin: 10px;
+    text-align: center;
+    
+}
+.img-card img{
+    width: 150px;
+    height: 150px;
+}
+.container h3{
+    color: wheat;
+}
+.btn-more{
+    color: white;
+    background-color: red;
+    outline: none;
+    font-size: 20px;
+    padding: 5px;
+    border-radius: 8px;
+    
+}
+.btn-more:before{
+    border: var(--bw) solid #000;
+}
+ 
+.btn-more:hover{
+    background-color: black;
+    color: red;
+    text-emphasis-style: 30px;
+}
+
+.text-header{
+    font-size: 30px;
+}
+
+
+
+
+.wrapper {
+    position: relative;
+    perspective: 40em;
+    display: grid;
+    transform-style: preserve-3d;
+  }
+  
+  .card {
+    grid-area: 1 / 1;
+    height: 150px;
+    width: 250px;
+    transform: translateX(10px) rotateY(25deg) rotateX(10deg);
+    background: url(https://cdn.hipwallpaper.com/i/47/57/8wLg3H.jpg) center/cover no-repeat;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 30px;
+    color: rgba(249, 198, 26, 1);
+    text-transform: uppercase;
+    font-size: 60px;
+    font-weight: 900;
+    backface-visibility: hidden;
+    box-shadow: 0 10px 30px -3px rgba(0,0,0,.1);
+    
+  }
+  
+  h1 {
+    font-size: 60px;
+    font-weight: 900;
+  }
+  
+  .card .enclosed {
+    background: #000;
+    line-height: 1;
+    color: rgba(249, 198, 26, 1);
+    padding: 0 5px;
+    display: inline-block;
+    transform: translate(-1px, 1px) scale(0.75);
+    transform-origin: right center;
+  }
+  
+  .wrapper:before {
+    --bw: 9px;
+    grid-area: 1 / 1;
+    content: '';
+    backface-visibility: hidden;
+    height: 100%;
+    width: 100%;
+    margin-top: calc(-1 * var(--bw));
+    margin-left: calc(-1 * var(--bw));
+    background: transparent;
+    transform: translateX(-60px) rotateY(-30deg) rotateX(15deg) scale(1.03);
+    pointer-events: none;
+    border: var(--bw) solid rgba(249, 198, 26, 1);
+    box-sizing: content-box;
+  }
+  
+  
+  
+  .wrapper:hover> div ,
+
+  
+  .wrapper:hover:before {
+    transform: none;
+  }
+  
+  
+  .wrapper > div,
+  .wrapper:before {
+    will-change: transform;
+    transition: .3s transform cubic-bezier(.25,.46,.45,1);
+  }
+  
+  
+  .wrapper {
+      margin: 50px;
+  }
+ 
+  
+  .good{
+    display: grid;
+    place-items: center;
+    /* background:
+      linear-gradient(to bottom right, #3C4BBD 15%, transparent),
+      radial-gradient(circle at 100% 0%, rgba(255,255,255,.2) 10%, transparent 20%) center center / 15px 15px,
+      linear-gradient(to bottom right, #3C4BBD, #57ADD8); */
+  }
+  .li-h1 li{
+      font-size: 20px;
+      list-style-type: none;
+      font-family: Bradley Hand, cursive;
+      
+  }
+  .li-h1 li a{
+      color: white;
+  }
+
+
+/* Слайдер */
+
+.slaider{
+    margin: 0;
+    background: lightgray;
+    text-align: center;
+    font-family: sans-serif;
+    color: #fefefe;
+    
+}
+
+.container5 {
+    position: relative;
+    width: 320px;
+    margin: 100px auto 0 auto;
+    perspective: 1000px;
+  }
+  
+  .carousel {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    transform-style: preserve-3d; 
+    animation: rotate360 60s infinite forwards linear;
+  }
+  .carousel__face { 
+    position: absolute;
+    width: 300px;
+    height: 187px;
+    top: 20px;
+    left: 10px;
+    right: 10px;
+    background-size: cover;
+    box-shadow:inset 0 0 0 2000px rgba(0,0,0,0.5);
+    display: flex;
+  }
+  .box-input{
+      text-align: center;
+  }
+  span {
+    margin: auto;
+    font-size: 2rem;
+  }
+  
+
+  
+  
+  
+  @keyframes rotate360 {
+    from {
+      transform: rotateY(0deg);
+    }
+    to {
+      transform: rotateY(-360deg);
+    }
+  }
+  
+.h5{
+    text-align: center;
+    font-size: 35px;
+    color: white;
+}
+/* pagination */
+.paginationvip{
+    text-align: center;
+    margin-top: 70px;
+    
+}
+.pagination {
+    display: inline-block;
+}
+
+.pagination a {
+    color: black;
+    float: left;
+    padding: 8px 16px;
+    text-decoration: none;
+    transition: background-color .3s;
+    border: 1px solid #ddd;
+    font-size: 22px;
+}
+
+.pagination a.active {
+    background-color: #4CAF50;
+    color: white;
+    border: 1px solid #4CAF50;
+}
+
+.pagination a:hover:not(.active) {background-color: #ddd;}
+
+
+
+
+
+footer{
+background-color: rgba(0, 0, 0, 0.7);
+text-align: center;
+padding-top: 100px;
+padding-bottom: 100px;
+
+}
+
+.portmenu{
+    display: inline-flex;
+}
+.cardsContainer h2{
+    
+    
+    text-align: center;
+}
+.cardsContainer h2 a{
+    color: black;
+    background-color: white;
+    border-radius: 50%;
+    padding: 10px;
+}
+
+.container-box1{
+    width: 600px;
+    background-color: rgba(0, 0, 0, 0.7);
+   text-align: center;
+   
+  
+   
+}
+.container-box1 p{
+    color: white;
+    font-size: 25px;
+}
+.container-box1 span{
+    color: yellow;
+}
+.img-box{
+    width: 300px;
+    margin-top: 100px;
+    margin-right: 100px;
+}
+.sta-box h4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 25px;
+}
+.prites h3{
+    color: white;
+    font-size: 25px;
+}
+
+.page7{
+    font-size: 20px;
+    padding: 10px;
+    outline: none;
+    margin-left: 20px;
+    background-color: rgba(0, 0, 0, 0.1);
+    color: white;
+    margin-bottom: 20px;
+}
+.page7:hover{
+background-color: rgba(212, 195, 195, 0.7);
+color: black;
+}
+
+
+
+
+
+
+  
